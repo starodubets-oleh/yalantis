@@ -1,0 +1,44 @@
+.item {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    padding: 10px;
+    color: #fff;
+}
+
+.item .users {
+    visibility: hidden;
+    min-width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 50%;
+    margin-left: -60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item:hover .users {
+    visibility: visible;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

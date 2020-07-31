@@ -1,0 +1,9 @@
+.months {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.month-item:not(:last-child) {
+    margin-right: 5px;
+}
